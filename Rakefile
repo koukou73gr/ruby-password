@@ -10,9 +10,9 @@ the manual entry of passwords from the keyboard in both buffered and
 unbuffered modes, password strength checking, random password generation,
 phonemic password generation (for easy memorisation by human-beings) and the
 encryption of passwords.}
-    gem.email = "albert.lash@docunext.com"
-    gem.homepage = "http://www.docunext.com/"
-    gem.authors = ["Albert Lash", "Ian Macdonald"]
+    gem.email = "crazymykl@gmail.com"
+    gem.homepage = "http://github.com/crazymykl/ruby-password"
+    gem.authors = ["Albert Lash", "Ian Macdonald", "Mike MacDonald"]
     gem.add_dependency "ruby-termios"
     gem.add_development_dependency "shoulda"
     gem.extensions = FileList['extconf.rb']

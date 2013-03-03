@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.date = "2012-05-20"
   s.description = "Ruby/Password is a suite of password handling methods for Ruby. It supports\nthe manual entry of passwords from the keyboard in both buffered and\nunbuffered modes, password strength checking, random password generation,\nphonemic password generation (for easy memorisation by human-beings) and the\nencryption of passwords."
   s.email = "crazymykl@gmail.com"
-  s.extensions = ["extconf.rb"]
+  s.extensions = ["ext/extconf.rb"]
   s.extra_rdoc_files = [
     "README"
   ]
@@ -26,15 +26,14 @@ Gem::Specification.new do |s|
     "VERSION",
     "example/example.rb",
     "example/pwgen",
-    "extconf.rb",
+    "ext/extconf.rb",
     "lib/password.rb",
     "pwgen.1",
-    "rbcrack.c",
+    "ext/rbcrack.c",
     "ruby-password.spec",
     "test/tc_password.rb"
   ]
   s.homepage = "http://github.com/crazymykl/ruby-password"
-  s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
   s.summary = "A password handling library for Ruby with interface to CrackLib"
 

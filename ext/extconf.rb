@@ -10,6 +10,7 @@ search_dicts = %w(
   /opt/lib/pw_dict.pwd
   /usr/local/lib/cracklib_dict.pwd
   /usr/lib/cracklib_dict.pwd
+  /usr/lib64/cracklib_dict.pwd
   /opt/lib/cracklib_dict.pwd
   /var/cache/cracklib/cracklib_dict.pwd
   /usr/local/share/cracklib/pw_dict.pwd
